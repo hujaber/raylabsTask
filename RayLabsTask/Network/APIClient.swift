@@ -8,8 +8,6 @@
 
 import Foundation
 
-
-
 class APIClient {
     // this works only for GET requests till now, which is the scope of the app
     func genericRequest<T: Codable>(for request: Request, type: T.Type,

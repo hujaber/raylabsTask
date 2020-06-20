@@ -12,7 +12,6 @@ struct UsersResponse: Codable {
     let data: [User]
 }
 
-// MARK: - Datum
 struct User: Codable {
     let id: Int
     let firstName, lastName, email: String
